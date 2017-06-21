@@ -4,6 +4,11 @@ clean:
 	rm -fR 20161216-diana-project-team-meeting.{aux,snm,log,nav,toc,out,pdf}
 	rm -fR 20170126-diana-ab-intro.{aux,snm,log,nav,toc,out,pdf}
 	rm -fR 20170607-microsoft-elmer-intro.{aux,snm,log,nav,toc,out,pdf}
+	rm -fR 20170622-wayne-state-scicomp-seminar.{aux,snm,log,nav,toc,out,pdf}
+
+wsu-jun2017:
+	pdflatex 20170622-wayne-state-scicomp-seminar.tex
+	pdflatex 20170622-wayne-state-scicomp-seminar.tex
 
 microsoft-jun2017:
 	pdflatex 20170607-microsoft-elmer-intro.tex
