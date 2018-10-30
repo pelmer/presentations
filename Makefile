@@ -7,6 +7,10 @@ clean:
 	rm -fR 20170622-wayne-state-scicomp-seminar.{aux,snm,log,nav,toc,out,pdf}
 	rm -fR 20170710-codas-hep-elmer-intro.{aux,snm,log,nav,toc,out,pdf}
 
+irishep-kickoff:
+	pdflatex 20181031-irishep-kickoff-intro.tex
+	pdflatex 20181031-irishep-kickoff-intro.tex
+
 codas-hep-2017:
 	pdflatex 20170710-codas-hep-elmer-intro.tex
 	pdflatex 20170710-codas-hep-elmer-intro.tex
